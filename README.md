@@ -1,4 +1,4 @@
-# CertTrust - Certificati Digitali QWAC, PSD2 & eIDAS
+# CertTrust - Digital Certificates QWAC, PSD2 & eIDAS
 
 <div align="center">
 
@@ -9,122 +9,124 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-4.x-38bdf8.svg)
 ![Vite](https://img.shields.io/badge/Vite-6.x-646cff.svg)
 
-**Piattaforma professionale per l'ottenimento gratuito di certificati digitali qualificati in ambiente di produzione**
+**Professional platform for obtaining free qualified digital certificates in production environment**
 
-[Inizia Ora](#installazione) • [Documentazione](#documentazione) • [Demo](#demo) • [Contribuire](#contribuire)
+[🇬🇧 English](#certtrust---digital-certificates-qwac-psd2--eidas) • [🇮🇹 Italiano](README.it.md) • [🇩🇪 Deutsch](README.de.md) • [🇪🇸 Español](README.es.md) • [🇫🇷 Français](README.fr.md) • [🇵🇹 Português](README.pt.md) • [🇨🇳 中文](README.zh.md) • [🇯🇵 日本語](README.ja.md) • [🇸🇦 العربية](README.ar.md) • [🇷🇺 Русский](README.ru.md) • [🇵🇰 اردو](README.ur.md) • [🇮🇳 हिन्दी](README.hi.md) • [🇮🇪 Gaeilge](README.ga.md) • [🇰🇷 한국어](README.ko.md)
+
+[Get Started](#installation) • [Documentation](#documentation) • [Demo](#demo) • [Contributing](#contributing)
 
 </div>
 
 ---
 
-## 📋 Indice
+## 📋 Table of Contents
 
-- [Panoramica](#panoramica)
-- [Caratteristiche Principali](#caratteristiche-principali)
-- [Certificati Disponibili](#certificati-disponibili)
-- [Per Chi è](#per-chi-è)
-- [Installazione](#installazione)
-- [Utilizzo](#utilizzo)
-- [Architettura](#architettura)
-- [Struttura del Progetto](#struttura-del-progetto)
-- [Tecnologie](#tecnologie)
-- [Sicurezza e Conformità](#sicurezza-e-conformità)
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Available Certificates](#available-certificates)
+- [Who It's For](#who-its-for)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Architecture](#architecture)
+- [Project Structure](#project-structure)
+- [Technologies](#technologies)
+- [Security & Compliance](#security--compliance)
 - [FAQ](#faq)
-- [Contribuire](#contribuire)
-- [Licenza](#licenza)
-- [Supporto](#supporto)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
 ---
 
-## 🎯 Panoramica
+## 🎯 Overview
 
-**CertTrust** è una piattaforma web moderna e professionale che consente a banche, istituti di pagamento, TPP (Third Party Providers) e organizzazioni finanziarie di ottenere **gratuitamente** certificati digitali qualificati in **ambiente di produzione**.
+**CertTrust** is a modern, professional web platform that enables banks, payment institutions, TPPs (Third Party Providers), and financial organizations to obtain **free** qualified digital certificates in a **production environment**.
 
-A differenza di altre soluzioni che forniscono solo certificati di test o sandbox, CertTrust emette certificati reali, pronti per l'uso immediato con qualsiasi istituzione bancaria e finanziaria in Europa, conformi ai regolamenti **PSD2** e **eIDAS**.
+Unlike other solutions that only provide test or sandbox certificates, CertTrust issues real certificates, ready for immediate use with any banking and financial institution in Europe, compliant with **PSD2** and **eIDAS** regulations.
 
-### Perché CertTrust?
+### Why CertTrust?
 
-| Caratteristica | CertTrust | Altri Servizi |
-|----------------|-----------|---------------|
-| Ambiente | ✅ **Produzione** | ❌ Test/Sandbox |
-| Validità | ✅ **Ogni istituzione UE** | ⚠️ Limitata |
-| Costo | ✅ **Gratuito** | ❌ A pagamento |
-| Conformità | ✅ **PSD2 + eIDAS** | ⚠️ Parziale |
-| Emissione | ✅ **Immediata** | ❌ Giorni/settimane |
-
----
-
-## ✨ Caratteristiche Principali
-
-### 🏭 Ambiente di Produzione Reale
-- Certificati emessi in produzione, non in ambiente di test
-- Pronti per l'uso immediato con API bancarie reali
-- Valore legale completo in tutta l'Unione Europea
-
-### 🏦 Validità Universale
-- Accettati da **tutte le istituzioni finanziarie** in Europa
-- Banche commerciali, istituti di pagamento, ASPSP, AISP, PISP
-- Fintech, neobanche, assicurazioni, pubblica amministrazione
-
-### ⚡ Emissione Immediata
-- Ricevi i certificati in pochi minuti
-- Nessun processo di approvazione lungo
-- Download immediato dopo la validazione del codice
-
-### 🔒 Sicurezza Massima
-- Chiavi crittografiche a 2048/4096 bit
-- Algoritmi SHA-256 e superiori
-- Emessi da QTSP (Qualified Trust Service Provider) autorizzati
-
-### 🇪🇺 Conformità Europea
-- 100% conformi al regolamento eIDAS (UE) n. 910/2014
-- Compliance completa con PSD2 (Payment Services Directive 2)
-- Rispetto degli standard EBA (European Banking Authority)
-
-### 💰 100% Gratuito
-- Nessun costo nascosto
-- Nessun abbonamento
-- Inserisci il codice e ottieni tutti i certificati
+| Feature | CertTrust | Other Services |
+|---------|-----------|----------------|
+| Environment | ✅ **Production** | ❌ Test/Sandbox |
+| Validity | ✅ **Every EU institution** | ⚠️ Limited |
+| Cost | ✅ **Free** | ❌ Paid |
+| Compliance | ✅ **PSD2 + eIDAS** | ⚠️ Partial |
+| Issuance | ✅ **Immediate** | ❌ Days/weeks |
 
 ---
 
-## 📜 Certificati Disponibili
+## ✨ Key Features
+
+### 🏭 Real Production Environment
+- Certificates issued in production, not in test environment
+- Ready for immediate use with real banking APIs
+- Full legal value throughout the European Union
+
+### 🏦 Universal Validity
+- Accepted by **all financial institutions** in Europe
+- Commercial banks, payment institutions, ASPSP, AISP, PISP
+- Fintech, neobanks, insurance companies, public administration
+
+### ⚡ Immediate Issuance
+- Receive certificates in minutes
+- No lengthy approval process
+- Immediate download after code validation
+
+### 🔒 Maximum Security
+- Cryptographic keys at 2048/4096 bits
+- SHA-256 algorithms and higher
+- Issued by authorized QTSP (Qualified Trust Service Provider)
+
+### 🇪🇺 European Compliance
+- 100% compliant with eIDAS Regulation (EU) No. 910/2014
+- Full compliance with PSD2 (Payment Services Directive 2)
+- Compliance with EBA (European Banking Authority) standards
+
+### 💰 100% Free
+- No hidden costs
+- No subscription
+- Enter the code and get all certificates
+
+---
+
+## 📜 Available Certificates
 
 ### 1. QWAC - Qualified Website Authentication Certificate
-**Autenticazione sicura del sito web**
+**Secure website authentication**
 
-Il QWAC è un certificato digitale qualificato che autentica l'identità di un sito web e garantisce comunicazioni sicure TLS/SSL. Secondo la PSD2, tutti gli istituti di pagamento devono utilizzare QWAC per le comunicazioni con le API bancarie.
+The QWAC is a qualified digital certificate that authenticates a website's identity and guarantees secure TLS/SSL communications. According to PSD2, all payment institutions must use QWAC for communications with banking APIs.
 
-**Caratteristiche:**
-- Autenticazione del sito web
-- Crittografia TLS/SSL
-- Obbligatorio per istituti finanziari (PSD2)
-- Valore legale in tutta l'UE
+**Features:**
+- Website authentication
+- TLS/SSL encryption
+- Mandatory for financial institutions (PSD2)
+- Legal value throughout the EU
 
-**Utilizzo:**
+**Usage:**
 ```
-Connessioni mTLS alle API bancarie
-Autenticazione server-side
-Comunicazioni sicure PSD2
+mTLS connections to banking APIs
+Server-side authentication
+Secure PSD2 communications
 ```
 
 ---
 
 ### 2. PSD2 Certificates
-**Certificati per Third Party Providers**
+**Certificates for Third Party Providers**
 
-Certificati specifici per TPP che operano nell'ambito della Payment Services Directive 2. Includono i ruoli PSP_AS, PSP_IC e PSP_PI necessari per accedere alle API Open Banking.
+Certificates specific for TPPs operating under the Payment Services Directive 2. They include PSP_AS, PSP_IC, and PSP_PI roles necessary to access Open Banking APIs.
 
-**Ruoli supportati:**
-- **PSP_AS** (Account Servicing) - Accesso ai conti
-- **PSP_IC** (Card Issuing) - Emissione carte
-- **PSP_PI** (Payment Initiation) - Iniziazione pagamenti
+**Supported roles:**
+- **PSP_AS** (Account Servicing) - Account access
+- **PSP_IC** (Card Issuing) - Card issuance
+- **PSP_PI** (Payment Initiation) - Payment initiation
 
-**Utilizzo:**
+**Usage:**
 ```
-Accesso API Open Banking
-Servizi AISP (Account Information)
-Servizi PISP (Payment Initiation)
+Open Banking API access
+AISP services (Account Information)
+PISP services (Payment Initiation)
 ```
 
 ---
@@ -132,223 +134,223 @@ Servizi PISP (Payment Initiation)
 ### 3. eIDAS Certificates
 **Electronic Identification and Trust Services**
 
-Certificati conformi al regolamento europeo eIDAS per l'identificazione elettronica e i servizi fiduciari qualificati. Riconosciuti automaticamente in tutti gli stati membri dell'UE.
+Certificates compliant with the European eIDAS regulation for electronic identification and qualified trust services. Automatically recognized in all EU member states.
 
-**Caratteristiche:**
-- Identificazione elettronica qualificata
-- Servizi fiduciari qualificati
-- Valore legale equivalente ai documenti cartacei
-- Riconosciuti in 27 stati membri UE
+**Features:**
+- Qualified electronic identification
+- Qualified trust services
+- Legal value equivalent to paper documents
+- Recognized in 27 EU member states
 
-**Utilizzo:**
+**Usage:**
 ```
-Firma elettronica qualificata
-Identificazione digitale
-Transazioni legali in UE
+Qualified electronic signature
+Digital identification
+Legal transactions in EU
 ```
 
 ---
 
 ### 4. QSealC - Qualified Electronic Seal Certificate
-**Sigillo elettronico per persone giuridiche**
+**Electronic seal for legal entities**
 
-Il QSealC è un sigillo elettronico qualificato per persone giuridiche. Garantisce l'origine e l'integrità dei documenti elettronici con valore legale in tutta l'UE.
+The QSealC is a qualified electronic seal for legal entities. It guarantees the origin and integrity of electronic documents with legal value throughout the EU.
 
-**Caratteristiche:**
-- Sigillo elettronico qualificato
-- Per persone giuridiche (aziende, enti)
-- Garantisce origine e integrità
-- Valore legale in tutta l'UE
+**Features:**
+- Qualified electronic seal
+- For legal entities (companies, organizations)
+- Guarantees origin and integrity
+- Legal value throughout the EU
 
-**Utilizzo:**
+**Usage:**
 ```
-Firma documenti aziendali
-Certificazione origine documenti
-Integrità dati sensibili
-```
-
----
-
-### 5. QWAC per TPP
-**QWAC specifico per Third Party Providers**
-
-Certificato QWAC con estensioni PSD2 nei campi dei privilegi. Richiesto per l'accesso alle API Open Banking con autenticazione mTLS.
-
-**Caratteristiche:**
-- QWAC con ruoli PSD2 (PSP_AS, PSP_IC, PSP_PI)
-- Autenticazione mTLS
-- Specifico per TPP
-- Conforme EBA RTS
-
-**Utilizzo:**
-```
-Autenticazione TPP alle API bancarie
-mTLS per Open Banking
-Comunicazioni sicure PSD2
+Company document signing
+Document origin certification
+Sensitive data integrity
 ```
 
 ---
 
-### 6. QSealC per TPP
-**Sigillo elettronico per Third Party Providers**
+### 5. QWAC for TPP
+**QWAC specific for Third Party Providers**
 
-Sigillo elettronico qualificato per TPP con estensioni PSD2. Utilizzato per firmare le richieste alle API bancarie e garantire autenticità e non ripudio.
+QWAC certificate with PSD2 extensions in privilege fields. Required for Open Banking API access with mTLS authentication.
 
-**Caratteristiche:**
-- Sigillo elettronico per TPP
-- Estensioni PSD2
-- Firma richieste API
-- Non ripudio delle transazioni
+**Features:**
+- QWAC with PSD2 roles (PSP_AS, PSP_IC, PSP_PI)
+- mTLS authentication
+- Specific for TPPs
+- EBA RTS compliant
 
-**Utilizzo:**
+**Usage:**
 ```
-Firma richieste API bancarie
-Autenticazione transazioni
-Non ripudio operazioni
+TPP authentication to banking APIs
+mTLS for Open Banking
+Secure PSD2 communications
 ```
 
 ---
 
-## 👥 Per Chi è
+### 6. QSealC for TPP
+**Electronic seal for Third Party Providers**
 
-CertTrust è progettato per:
+Qualified electronic seal for TPPs with PSD2 extensions. Used to sign requests to banking APIs and guarantee authenticity and non-repudiation.
 
-### 🏦 Istituti Finanziari
-- **Banche Commerciali** - Autenticazione sicura e conformità PSD2
-- **Istituti di Pagamento (IP)** - Accesso API e servizi di pagamento
-- **Istituti di Moneta Elettronica (IME)** - Emissione moneta elettronica
-- **Neobanche** - Servizi digitali innovativi
+**Features:**
+- Electronic seal for TPPs
+- PSD2 extensions
+- API request signing
+- Transaction non-repudiation
+
+**Usage:**
+```
+Banking API request signing
+Transaction authentication
+Operation non-repudiation
+```
+
+---
+
+## 👥 Who It's For
+
+CertTrust is designed for:
+
+### 🏦 Financial Institutions
+- **Commercial Banks** - Secure authentication and PSD2 compliance
+- **Payment Institutions (PI)** - API access and payment services
+- **Electronic Money Institutions (EMI)** - Electronic money issuance
+- **Neobanks** - Innovative digital services
 
 ### 🔄 Third Party Providers (TPP)
-- **AISP** (Account Information Service Providers) - Aggregazione conti
-- **PISP** (Payment Initiation Service Providers) - Iniziazione pagamenti
-- **ASPSP** (Account Servicing PSP) - Gestione conti
-- **Aggregatori** - Servizi di aggregazione finanziaria
+- **AISP** (Account Information Service Providers) - Account aggregation
+- **PISP** (Payment Initiation Service Providers) - Payment initiation
+- **ASPSP** (Account Servicing PSP) - Account management
+- **Aggregators** - Financial aggregation services
 
-### 💼 Aziende e Organizzazioni
-- **Fintech** - Startup e scale-up del settore finanziario
-- **Corporate** - Grandi aziende con esigenze finanziarie
-- **Pubblica Amministrazione** - Enti pubblici europei
-- **Assicurazioni** - Compagnie assicurative
+### 💼 Companies and Organizations
+- **Fintech** - Startups and scale-ups in the financial sector
+- **Corporate** - Large companies with financial needs
+- **Public Administration** - European public entities
+- **Insurance** - Insurance companies
 
 ---
 
-## 🚀 Installazione
+## 🚀 Installation
 
-### Prerequisiti
+### Prerequisites
 
-Prima di iniziare, assicurati di avere installato:
+Before starting, make sure you have installed:
 
 - **Node.js** >= 18.0.0
-- **npm** >= 9.0.0 (o yarn >= 1.22.0)
-- **Git** (opzionale, per clonare il repository)
+- **npm** >= 9.0.0 (or yarn >= 1.22.0)
+- **Git** (optional, to clone the repository)
 
-### Installazione Rapida
+### Quick Installation
 
 ```bash
-# Clona il repository
+# Clone the repository
 git clone https://github.com/yourusername/certtrust.git
 
-# Entra nella directory del progetto
+# Enter the project directory
 cd certtrust
 
-# Installa le dipendenze
+# Install dependencies
 npm install
 
-# Avvia il server di sviluppo
+# Start the development server
 npm run dev
 ```
 
-L'applicazione sarà disponibile all'indirizzo `http://localhost:5173`
+The application will be available at `http://localhost:5173`
 
-### Build per Produzione
+### Production Build
 
 ```bash
-# Build di produzione
+# Production build
 npm run build
 
-# Anteprima della build
+# Preview the build
 npm run preview
 ```
 
-I file ottimizzati saranno generati nella directory `dist/`
+Optimized files will be generated in the `dist/` directory
 
-### Installazione con Docker (Opzionale)
+### Docker Installation (Optional)
 
 ```bash
-# Build dell'immagine Docker
+# Build Docker image
 docker build -t certtrust .
 
-# Esegui il container
+# Run the container
 docker run -p 80:80 certtrust
 ```
 
 ---
 
-## 💻 Utilizzo
+## 💻 Usage
 
-### Per Utenti Finali
+### For End Users
 
-1. **Visita il sito web**
-   - Apri il browser e naviga all'URL dell'applicazione
+1. **Visit the website**
+   - Open your browser and navigate to the application URL
 
-2. **Inserisci il codice promozionale**
-   - Scorri fino alla sezione "Inserisci il Tuo Codice"
-   - Inserisci il codice promozionale che hai ricevuto
-   - Inserisci la tua email aziendale
+2. **Enter the promotional code**
+   - Scroll to the "Enter Your Code" section
+   - Enter the promotional code you received
+   - Enter your business email
 
-3. **Verifica l'identità**
-   - Completa la verifica dell'identità aziendale
-   - Fornisci i documenti richiesti
+3. **Verify your identity**
+   - Complete business identity verification
+   - Provide required documents
 
-4. **Scarica i certificati**
-   - Riceverai i certificati via email entro pochi minuti
-   - Tutti i certificati sono in ambiente di produzione
-   - Validi per ogni istituzione in Europa
+4. **Download certificates**
+   - You will receive certificates via email within minutes
+   - All certificates are in production environment
+   - Valid for every institution in Europe
 
-### Per Sviluppatori
+### For Developers
 
-#### Sviluppo Locale
+#### Local Development
 
 ```bash
-# Avvia il server di sviluppo con hot-reload
+# Start development server with hot-reload
 npm run dev
 
-# L'applicazione si aprirà automaticamente
-# Modifica i file in src/ per vedere i cambiamenti in tempo reale
+# The application will open automatically
+# Edit files in src/ to see changes in real-time
 ```
 
-#### Struttura dei Componenti
+#### Component Structure
 
 ```typescript
-// src/App.tsx - Componente principale
+// src/App.tsx - Main component
 import App from './App';
 
-// Componenti riutilizzabili
+// Reusable components
 import FaqItem from './components/FaqItem';
 ```
 
-#### Personalizzazione
+#### Customization
 
-Per modificare i colori del tema, edita `src/index.css`:
+To modify theme colors, edit `src/index.css`:
 
 ```css
 @import "tailwindcss";
 
-/* Personalizza qui i colori del tema */
+/* Customize theme colors here */
 ```
 
-Per modificare il contenuto, edita `src/App.tsx`:
+To modify content, edit `src/App.tsx`:
 
 ```typescript
-// Modifica i testi, le sezioni, i certificati, ecc.
+// Modify texts, sections, certificates, etc.
 ```
 
 ---
 
-## 🏗️ Architettura
+## 🏗️ Architecture
 
-### Stack Tecnologico
+### Technology Stack
 
 ```
 ┌─────────────────────────────────────────┐
@@ -373,13 +375,13 @@ Per modificare il contenuto, edita `src/App.tsx`:
 
 ### Design Patterns
 
-- **Component-Based Architecture**: UI divisa in componenti riutilizzabili
-- **Functional Components**: Utilizzo di React Hooks per state management
-- **Responsive Design**: Mobile-first approach con Tailwind CSS
-- **Accessibility**: Semantica HTML5 e ARIA labels
-- **Performance**: Code splitting e lazy loading
+- **Component-Based Architecture**: UI divided into reusable components
+- **Functional Components**: Using React Hooks for state management
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Accessibility**: HTML5 semantics and ARIA labels
+- **Performance**: Code splitting and lazy loading
 
-### Flusso Dati
+### Data Flow
 
 ```
 User Input → Form Validation → State Update → UI Re-render
@@ -389,78 +391,78 @@ Email/Code → Validation → Success State → Certificate Display
 
 ---
 
-## 📁 Struttura del Progetto
+## 📁 Project Structure
 
 ```
 certtrust/
 │
-├── public/                 # Asset statici
+├── public/                 # Static assets
 │   ├── favicon.ico
 │   └── images/
 │
-├── src/                    # Codice sorgente
-│   ├── App.tsx            # Componente principale
+├── src/                    # Source code
+│   ├── App.tsx            # Main component
 │   ├── main.tsx           # Entry point
-│   ├── index.css          # Stili globali
-│   └── components/        # Componenti riutilizzabili (opzionale)
+│   ├── index.css          # Global styles
+│   └── components/        # Reusable components (optional)
 │
-├── dist/                   # Build di produzione (generato)
+├── dist/                   # Production build (generated)
 │   ├── index.html
 │   ├── assets/
 │   │   ├── index-[hash].js
 │   │   └── index-[hash].css
 │
 ├── index.html             # HTML template
-├── package.json           # Dipendenze e script
-├── tsconfig.json          # Configurazione TypeScript
-├── vite.config.ts         # Configurazione Vite
-├── tailwind.config.js     # Configurazione Tailwind (se presente)
-├── README.md              # Questa documentazione
-└── .gitignore             # File ignorati da Git
+├── package.json           # Dependencies and scripts
+├── tsconfig.json          # TypeScript configuration
+├── vite.config.ts         # Vite configuration
+├── tailwind.config.js     # Tailwind configuration (if present)
+├── README.md              # This documentation
+└── .gitignore             # Git ignored files
 ```
 
-### File Principali
+### Main Files
 
 #### `src/App.tsx`
-Componente principale dell'applicazione. Contiene:
-- Hero section con CTA
-- Sezione certificati (6 card)
-- Sezione vantaggi
-- Sezione "Come ottenere"
-- Form per inserimento codice
-- FAQ con accordion
+Main application component. Contains:
+- Hero section with CTA
+- Certificates section (6 cards)
+- Benefits section
+- "How to get" section
+- Code entry form
+- FAQ with accordion
 - Footer
 
 #### `src/main.tsx`
-Entry point dell'applicazione React. Monta il componente `App` nel DOM.
+React application entry point. Mounts the `App` component in the DOM.
 
 #### `src/index.css`
-Importazione di Tailwind CSS e stili globali.
+Tailwind CSS import and global styles.
 
 #### `index.html`
-Template HTML con meta tags, titolo e font Awesome.
+HTML template with meta tags, title, and Font Awesome.
 
 ---
 
-## 🛠️ Tecnologie
+## 🛠️ Technologies
 
 ### Core Technologies
 
-| Tecnologia | Versione | Descrizione |
-|------------|----------|-------------|
-| **React** | 18.x | Libreria UI per costruire interfacce utente |
-| **TypeScript** | 5.x | Superset di JavaScript con tipizzazione statica |
-| **Vite** | 6.x | Build tool e dev server ultra-veloce |
-| **Tailwind CSS** | 4.x | Framework CSS utility-first |
+| Technology | Version | Description |
+|------------|---------|-------------|
+| **React** | 18.x | UI library for building user interfaces |
+| **TypeScript** | 5.x | JavaScript superset with static typing |
+| **Vite** | 6.x | Ultra-fast build tool and dev server |
+| **Tailwind CSS** | 4.x | Utility-first CSS framework |
 
 ### Development Tools
 
-| Tool | Descrizione |
+| Tool | Description |
 |------|-------------|
-| **ESLint** | Linting per JavaScript/TypeScript |
-| **Prettier** | Formattazione codice automatica |
-| **PostCSS** | Trasformazione CSS |
-| **Autoprefixer** | Vendor prefixes automatici |
+| **ESLint** | Linting for JavaScript/TypeScript |
+| **Prettier** | Automatic code formatting |
+| **PostCSS** | CSS transformation |
+| **Autoprefixer** | Automatic vendor prefixes |
 
 ### Browser Support
 
@@ -472,24 +474,24 @@ Template HTML con meta tags, titolo e font Awesome.
 
 ---
 
-## 🔐 Sicurezza e Conformità
+## 🔐 Security & Compliance
 
-### Standard di Sicurezza
+### Security Standards
 
-CertTrust aderisce ai più alti standard di sicurezza del settore finanziario:
+CertTrust adheres to the highest security standards in the financial industry:
 
-#### 🔒 Crittografia
-- **Algoritmi**: RSA 2048/4096 bit, ECDSA
+#### 🔒 Encryption
+- **Algorithms**: RSA 2048/4096 bit, ECDSA
 - **Hash**: SHA-256, SHA-384, SHA-512
-- **Protocolli**: TLS 1.2, TLS 1.3
-- **Certificati**: X.509 v3
+- **Protocols**: TLS 1.2, TLS 1.3
+- **Certificates**: X.509 v3
 
-#### 📋 Conformità Normativa
+#### 📋 Regulatory Compliance
 
-**eIDAS (Regolamento UE n. 910/2014)**
-- Identificazione elettronica
-- Servizi fiduciari qualificati
-- Riconoscimento transfrontaliero
+**eIDAS (EU Regulation No. 910/2014)**
+- Electronic identification
+- Qualified trust services
+- Cross-border recognition
 
 **PSD2 (Payment Services Directive 2)**
 - Strong Customer Authentication (SCA)
@@ -497,119 +499,119 @@ CertTrust aderisce ai più alti standard di sicurezza del settore finanziario:
 - RTS on SCA and CSC (EBA/RTS/2017)
 
 **EBA Guidelines**
-- Standard tecnici europei
-- Requisiti di sicurezza
-- Interoperabilità
+- European technical standards
+- Security requirements
+- Interoperability
 
-#### 🏛️ QTSP Autorizzati
-I certificati sono emessi da **Qualified Trust Service Provider** autorizzati e supervisionati dalle autorità nazionali competenti.
+#### 🏛️ Authorized QTSP
+Certificates are issued by **Qualified Trust Service Providers** authorized and supervised by competent national authorities.
 
-### Protezione Dati
+### Data Protection
 
-- **GDPR Compliant**: Rispetto del Regolamento Generale sulla Protezione dei Dati
-- **Data Encryption**: Tutti i dati sensibili sono crittografati
-- **Secure Transmission**: Comunicazioni protette con TLS
-- **Privacy by Design**: Architettura orientata alla privacy
+- **GDPR Compliant**: Compliance with General Data Protection Regulation
+- **Data Encryption**: All sensitive data is encrypted
+- **Secure Transmission**: Communications protected with TLS
+- **Privacy by Design**: Privacy-oriented architecture
 
 ---
 
 ## ❓ FAQ
 
-### Domande Generali
+### General Questions
 
-**D: I certificati sono davvero gratuiti?**  
-R: Sì, i certificati sono 100% gratuiti. Inserisci il codice promozionale e ricevi tutti i certificati senza alcun costo.
+**Q: Are the certificates really free?**  
+A: Yes, the certificates are 100% free. Enter the promotional code and receive all certificates at no cost.
 
-**D: Quanto tempo ci vuole per ottenere i certificati?**  
-R: L'emissione è immediata. Dopo la validazione del codice e la verifica dell'identità, ricevi i certificati via email entro pochi minuti.
+**Q: How long does it take to get the certificates?**  
+A: Issuance is immediate. After code validation and identity verification, you receive certificates via email within minutes.
 
-**D: I certificati sono in produzione o in test?**  
-R: I certificati sono in **ambiente di produzione reale**. Non sono certificati sandbox o di test. Hanno lo stesso valore dei certificati a pagamento.
+**Q: Are the certificates in production or test?**  
+A: The certificates are in **real production environment**. They are not sandbox or test certificates. They have the same value as paid certificates.
 
-### Domande Tecniche
+### Technical Questions
 
-**D: Per quali istituzioni sono validi i certificati?**  
-R: I certificati sono validi per **ogni istituzione finanziaria** in Europa: banche, istituti di pagamento, ASPSP, AISP, PISP, fintech, neobanche, assicurazioni, pubblica amministrazione.
+**Q: For which institutions are the certificates valid?**  
+A: The certificates are valid for **every financial institution** in Europe: banks, payment institutions, ASPSP, AISP, PISP, fintech, neobanks, insurance companies, public administration.
 
-**D: Qual è la durata dei certificati?**  
-R: I certificati qualificati hanno una durata tipica di 1 anno dalla data di emissione. Possono essere rinnovati gratuitamente.
+**Q: What is the duration of the certificates?**  
+A: Qualified certificates have a typical duration of 1 year from the issuance date. They can be renewed for free.
 
-**D: I certificati sono riconosciuti in tutta Europa?**  
-R: Sì, i certificati eIDAS sono riconosciuti automaticamente in tutti i 27 stati membri dell'Unione Europea.
+**Q: Are the certificates recognized throughout Europe?**  
+A: Yes, eIDAS certificates are automatically recognized in all 27 European Union member states.
 
-### Domande per Sviluppatori
+### Developer Questions
 
-**D: Posso personalizzare l'applicazione?**  
-R: Sì, il codice è completamente open source e personalizzabile. Puoi modificare componenti, stili e contenuti.
+**Q: Can I customize the application?**  
+A: Yes, the code is completely open source and customizable. You can modify components, styles, and content.
 
-**D: Quali sono i requisiti di sistema?**  
-R: Node.js >= 18.0.0, npm >= 9.0.0. L'applicazione è compatibile con tutti i browser moderni.
+**Q: What are the system requirements?**  
+A: Node.js >= 18.0.0, npm >= 9.0.0. The application is compatible with all modern browsers.
 
-**D: Posso integrare l'applicazione con il mio backend?**  
-R: Sì, l'applicazione è progettata per essere facilmente integrabile con qualsiasi backend. Puoi modificare il form per inviare dati al tuo server.
+**Q: Can I integrate the application with my backend?**  
+A: Yes, the application is designed to be easily integrated with any backend. You can modify the form to send data to your server.
 
 ---
 
-## 🤝 Contribuire
+## 🤝 Contributing
 
-I contributi sono benvenuti! Se vuoi contribuire al progetto, segui questi passaggi:
+Contributions are welcome! If you want to contribute to the project, follow these steps:
 
-### Come Contribuire
+### How to Contribute
 
-1. **Fork il repository**
+1. **Fork the repository**
    ```bash
    git clone https://github.com/yourusername/certtrust.git
    ```
 
-2. **Crea un branch per la tua feature**
+2. **Create a branch for your feature**
    ```bash
-   git checkout -b feature/nome-feature
+   git checkout -b feature/feature-name
    ```
 
-3. **Effettua le modifiche**
-   - Scrivi codice pulito e ben commentato
-   - Segui le convenzioni di stile del progetto
-   - Aggiungi test se necessario
+3. **Make the changes**
+   - Write clean, well-commented code
+   - Follow the project's style conventions
+   - Add tests if necessary
 
-4. **Commit delle modifiche**
+4. **Commit the changes**
    ```bash
-   git commit -m "Aggiunta nuova feature"
+   git commit -m "Added new feature"
    ```
 
-5. **Push al branch**
+5. **Push to the branch**
    ```bash
-   git push origin feature/nome-feature
+   git push origin feature/feature-name
    ```
 
-6. **Apri una Pull Request**
-   - Descrivi chiaramente le modifiche
-   - Spiega il motivo delle modifiche
-   - Aggiungi screenshot se rilevante
+6. **Open a Pull Request**
+   - Clearly describe the changes
+   - Explain the reason for the changes
+   - Add screenshots if relevant
 
-### Linee Guida per il Codice
+### Code Guidelines
 
-- **TypeScript**: Usa TypeScript per tutti i nuovi file
-- **Componenti**: Mantieni i componenti piccoli e focalizzati
-- **Stili**: Usa Tailwind CSS per gli stili
-- **Commenti**: Commenta il codice complesso
-- **Test**: Scrivi test per le funzionalità critiche
+- **TypeScript**: Use TypeScript for all new files
+- **Components**: Keep components small and focused
+- **Styles**: Use Tailwind CSS for styles
+- **Comments**: Comment complex code
+- **Tests**: Write tests for critical functionality
 
-### Segnalare Problemi
+### Reporting Issues
 
-Se trovi un bug o hai un suggerimento:
+If you find a bug or have a suggestion:
 
-1. Controlla se il problema è già stato segnalato
-2. Apri una nuova issue con:
-   - Descrizione chiara del problema
-   - Passi per riprodurlo
-   - Ambiente (OS, browser, versione Node)
-   - Screenshot se applicabile
+1. Check if the issue has already been reported
+2. Open a new issue with:
+   - Clear description of the problem
+   - Steps to reproduce it
+   - Environment (OS, browser, Node version)
+   - Screenshots if applicable
 
 ---
 
-## 📄 Licenza
+## 📄 License
 
-Questo progetto è distribuito sotto licenza **MIT**.
+This project is distributed under the **MIT** license.
 
 ```
 MIT License
@@ -637,37 +639,37 @@ SOFTWARE.
 
 ---
 
-## 📞 Supporto
+## 📞 Support
 
-### Canali di Supporto
+### Support Channels
 
 - 📧 **Email**: support@certtrust.com
-- 💬 **Chat**: Disponibile sul sito web
-- 📚 **Documentazione**: [docs.certtrust.com](https://docs.certtrust.com)
+- 💬 **Chat**: Available on the website
+- 📚 **Documentation**: [docs.certtrust.com](https://docs.certtrust.com)
 - 🐛 **Issue Tracker**: [GitHub Issues](https://github.com/yourusername/certtrust/issues)
 
-### Orari di Supporto
+### Support Hours
 
-- **Lunedì - Venerdì**: 9:00 - 18:00 (CET)
-- **Tempo di risposta**: Entro 24 ore lavorative
+- **Monday - Friday**: 9:00 AM - 6:00 PM (CET)
+- **Response time**: Within 24 business hours
 
-### Risorse Utili
+### Useful Resources
 
-- [Documentazione PSD2](https://www.eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money/payment-services-directive-2-psd2)
-- [Regolamento eIDAS](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32014R0910)
+- [PSD2 Documentation](https://www.eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money/payment-services-directive-2-psd2)
+- [eIDAS Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910)
 - [EBA Guidelines](https://www.eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money)
 
 ---
 
-## 🎓 Risorse per l'Apprendimento
+## 🎓 Learning Resources
 
-### Certificati Digitali
+### Digital Certificates
 
-- [Cos'è un certificato QWAC?](https://www.etsi.org/deliver/etsi_en/319400_319499/31941201/01.00.01_60/en_31941201v010001p.pdf)
-- [PSD2 e Open Banking](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/psd2.en.html)
+- [What is a QWAC certificate?](https://www.etsi.org/deliver/etsi_en/319400_319499/31941201/01.00.01_60/en_31941201v010001p.pdf)
+- [PSD2 and Open Banking](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/psd2.en.html)
 - [eIDAS Regulation](https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eIDAS+overview)
 
-### Sviluppo Web
+### Web Development
 
 - [React Documentation](https://react.dev/)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
@@ -676,35 +678,35 @@ SOFTWARE.
 
 ---
 
-## 🙏 Ringraziamenti
+## 🙏 Acknowledgments
 
-Un ringraziamento speciale a:
+Special thanks to:
 
-- **Comunità React** per l'eccellente framework
-- **Tailwind CSS** per il potente framework CSS
-- **Vite** per il build tool veloce e moderno
-- **Tutti i contributori** che hanno aiutato a migliorare il progetto
+- **React Community** for the excellent framework
+- **Tailwind CSS** for the powerful CSS framework
+- **Vite** for the fast and modern build tool
+- **All contributors** who helped improve the project
 
 ---
 
-## 📊 Status del Progetto
+## 📊 Project Status
 
 ```
-✅ Versione 1.0.0 rilasciata
-✅ Documentazione completa
-✅ Test di base implementati
-✅ CI/CD configurato
-✅ Deployment automatico
+✅ Version 1.0.0 released
+✅ Complete documentation
+✅ Basic tests implemented
+✅ CI/CD configured
+✅ Automatic deployment
 ```
 
 ---
 
 <div align="center">
 
-**Realizzato con ❤️ per il settore finanziario europeo**
+**Made with ❤️ for the European financial sector**
 
 [Website](https://certtrust.com) • [Documentation](https://docs.certtrust.com) • [Support](mailto:support@certtrust.com)
 
-© 2024 CertTrust. Tutti i diritti riservati.
+© 2024 CertTrust. All rights reserved.
 
 </div>
