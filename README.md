@@ -521,6 +521,33 @@ HTML template with meta tags, title, and Font Awesome.
 
 ## 🔐 Security & Compliance
 
+### 🏗️ HSM Infrastructure (FIPS 140-2 Level 3+)
+
+CertTrust includes a complete Hardware Security Module (HSM) infrastructure for secure key management:
+
+**Supported HSM Providers:**
+- ✅ **AWS CloudHSM** (FIPS 140-2 Level 3)
+- ✅ **Azure Dedicated HSM** (FIPS 140-2 Level 3)
+- ✅ **Google Cloud HSM** (FIPS 140-2 Level 3)
+- ✅ **Thales Luna** (FIPS 140-2 Level 3) via PKCS#11
+- ✅ **Local FIPS** (OpenSSL FIPS Provider)
+
+**Features:**
+- 🔑 Hardware-backed key generation and storage
+- 🔏 Secure certificate signing (keys never leave HSM)
+- 📊 Comprehensive audit logging (tamper-evident)
+- 🔒 FIPS-approved algorithms only (AES, RSA, ECDSA, SHA)
+- 🛡️ Zero-trust architecture
+- 💾 Encrypted key backup and recovery
+
+**Quick Start:**
+```bash
+cd hsm
+./setup.sh
+```
+
+📖 **Full HSM Documentation**: [hsm/README.md](hsm/README.md)
+
 ### Security Standards
 
 CertTrust adheres to the highest security standards in the financial industry:
