@@ -11,7 +11,7 @@
 
 **منصة احترافية للحصول المجاني على الشهادات الرقمية المؤهلة في بيئة الإنتاج**
 
-[🇬🇧 English](README.md) • [🇮🇹 Italiano](README.it.md) • [🇩🇪 Deutsch](README.de.md) • [🇪🇸 Español](README.es.md) • [🇫🇷 Français](README.fr.md) • [🇵🇹 Português](README.pt.md) • [🇨🇳 中文](README.zh.md) • [🇯🇵 日本語](README.ja.md) • [🇸🇦 العربية](#certtrust---الشهادات-الرقمية-qwac-psd2--eidas) • [🇷🇺 Русский](README.ru.md)
+[🇬🇧 English](README.md) • [🇮🇹 Italiano](README.it.md) • [🇩🇪 Deutsch](README.de.md) • [🇪🇸 Español](README.es.md) • [🇫🇷 Français](README.fr.md) • [🇵🇹 Português](README.pt.md) • [🇨🇳 中文](README.zh.md) • [🇯🇵 日本語](README.ja.md) • [🇸🇦 العربية](#certtrust---الشهادات-الرقمية-qwac-psd2--eidas) • [🇷🇺 Русский](README.ru.md) • [🇵🇰 اردو](README.ur.md) • [🇮🇳 हिन्दी](README.hi.md) • [🇮🇪 Gaeilge](README.ga.md)
 
 [ابدأ الآن](#التثبيت) • [التوثيق](#التوثيق) • [عرض تجريبي](#عرض-تجريبي) • [المساهمة](#المساهمة)
 
