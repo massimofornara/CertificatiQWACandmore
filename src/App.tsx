@@ -74,7 +74,7 @@ function App() {
           <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-4">
             Ottieni certificati digitali qualificati <span className="text-green-400 font-semibold">in ambiente di produzione</span> per la conformità PSD2, 
             Open Banking e il regolamento eIDAS. Inserisci il tuo codice e scarica immediatamente 
-            i certificati QWAC, QSeal, eIDAS — <span className="text-cyan-400 font-semibold">validi per ogni istituzione bancaria e finanziaria in Europa</span>.
+            i certificati QWAC, QWAC SAN, QSeal, eIDAS e PSD2 — <span className="text-cyan-400 font-semibold">validi per ogni istituzione bancaria e finanziaria in Europa</span>.
           </p>
           <p className="text-base text-white/50 max-w-2xl mx-auto mb-10">
             Nessun ambiente di test. Nessun sandbox. Certificati pronti per l'uso immediato con tutte le banche, 
@@ -246,7 +246,7 @@ function App() {
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
               Tutti in Ambiente di Produzione
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Tutti i Certificati Disponibili</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Tutti i 7 Certificati Disponibili</h2>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
               Una suite completa di certificati digitali qualificati <span className="text-green-400 font-medium">in produzione</span> per banche, istituti di pagamento, 
               TPP e tutti gli operatori del settore finanziario. <span className="text-cyan-400 font-medium">Validi per ogni istituzione in Europa.</span>
@@ -377,6 +377,29 @@ function App() {
                 <span className="text-xs bg-rose-500/20 text-rose-300 px-2 py-1 rounded">Non-repudiation</span>
               </div>
             </div>
+
+            {/* QWAC SAN */}
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group relative overflow-hidden">
+              <div className="absolute top-3 right-3 bg-green-500/20 border border-green-400/30 text-green-300 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Produzione</div>
+              <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-violet-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition">
+                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-2">QWAC SAN</h3>
+              <p className="text-sm text-white/60 mb-3">Qualified Website Authentication Certificate - Subject Alternative Name</p>
+              <p className="text-white/70 text-sm">
+                Certificato QWAC con supporto multi-dominio tramite Subject Alternative Name (SAN). 
+                Permette di proteggere più domini e sottodomini con un singolo certificato, ideale 
+                per istituzioni bancarie con infrastrutture complesse e multiple presence online.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="text-xs bg-indigo-500/20 text-indigo-300 px-2 py-1 rounded">Multi-Domain</span>
+                <span className="text-xs bg-indigo-500/20 text-indigo-300 px-2 py-1 rounded">SAN</span>
+                <span className="text-xs bg-indigo-500/20 text-indigo-300 px-2 py-1 rounded">Wildcard</span>
+                <span className="text-xs bg-indigo-500/20 text-indigo-300 px-2 py-1 rounded">PSD2</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -455,7 +478,7 @@ function App() {
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-violet-500 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">3</div>
                 <h3 className="text-xl font-bold mb-3">Scarica Certificati Produzione</h3>
                 <p className="text-white/60">
-                  Scarica immediatamente tutti i certificati QWAC, PSD2, eIDAS e QSeal <span className="text-green-400 font-medium">in produzione</span> — validi per ogni istituzione
+                  Scarica immediatamente tutti i certificati QWAC, QWAC SAN, PSD2, eIDAS e QSeal <span className="text-green-400 font-medium">in produzione</span> — validi per ogni istituzione
                 </p>
               </div>
             </div>
@@ -473,7 +496,7 @@ function App() {
               </div>
               <h2 className="text-2xl md:text-3xl font-bold mb-2">Inserisci il Tuo Codice</h2>
               <p className="text-white/60">
-                Inserisci il codice promozionale e la tua email per ricevere tutti i certificati <span className="text-green-400 font-medium">di produzione</span> gratuitamente — validi per ogni istituzione
+                Inserisci il codice promozionale e la tua email per ricevere tutti i certificati (QWAC, QWAC SAN, PSD2, eIDAS, QSeal) <span className="text-green-400 font-medium">di produzione</span> gratuitamente — validi per ogni istituzione
               </p>
             </div>
 
@@ -533,7 +556,7 @@ function App() {
                     I certificati saranno inviati all'indirizzo <span className="text-white font-medium">{email}</span> entro pochi minuti.
                   </p>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3 text-sm">
                   <div className="bg-blue-500/20 border border-blue-500/30 rounded-lg p-3">
                     <div className="text-blue-300 font-bold">QWAC</div>
                     <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
@@ -548,6 +571,18 @@ function App() {
                   </div>
                   <div className="bg-orange-500/20 border border-orange-500/30 rounded-lg p-3">
                     <div className="text-orange-300 font-bold">QSealC</div>
+                    <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
+                  </div>
+                  <div className="bg-cyan-500/20 border border-cyan-500/30 rounded-lg p-3">
+                    <div className="text-cyan-300 font-bold">QWAC TPP</div>
+                    <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
+                  </div>
+                  <div className="bg-rose-500/20 border border-rose-500/30 rounded-lg p-3">
+                    <div className="text-rose-300 font-bold">QSealC TPP</div>
+                    <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
+                  </div>
+                  <div className="bg-indigo-500/20 border border-indigo-500/30 rounded-lg p-3">
+                    <div className="text-indigo-300 font-bold">QWAC SAN</div>
                     <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
                   </div>
                 </div>
@@ -593,7 +628,7 @@ function App() {
             />
             <FaqItem 
               question="Come posso ottenere i certificati gratuitamente?"
-              answer="È semplice: inserisci il tuo codice promozionale nella sezione dedicata, completa la verifica dell'identità aziendale e riceverai immediatamente tutti i certificati QWAC, PSD2, eIDAS e QSeal direttamente nella tua email. I certificati sono emessi in produzione da QTSP (Qualified Trust Service Provider) autorizzati e sono validi per ogni istituzione."
+              answer="È semplice: inserisci il tuo codice promozionale nella sezione dedicata, completa la verifica dell'identità aziendale e riceverai immediatamente tutti i certificati QWAC, QWAC SAN, PSD2, eIDAS e QSeal direttamente nella tua email. I certificati sono emessi in produzione da QTSP (Qualified Trust Service Provider) autorizzati e sono validi per ogni istituzione."
             />
             <FaqItem 
               question="I certificati sono validi in tutta Europa?"
