@@ -40,9 +40,31 @@
 
 ## 🎯 Overview
 
-**CertTrust** is a modern, professional web platform that enables banks, payment institutions, TPPs (Third Party Providers), and financial organizations to obtain **free** qualified digital certificates in a **production environment**.
+**CertTrust** is a complete digital certificate management system with both frontend and backend components.
 
-Unlike other solutions that only provide test or sandbox certificates, CertTrust issues real certificates, ready for immediate use with any banking and financial institution in Europe, compliant with **PSD2** and **eIDAS** regulations.
+### ⚠️ Important Legal Notice
+
+This system generates **X.509 certificates for TEST/DEMO purposes**. The certificates are technically valid but NOT legally qualified under eIDAS regulation.
+
+For legally qualified certificates (required for PSD2 production), you must integrate with authorized QTSPs (InfoCert, Aruba, Namirial, etc.).
+
+### System Components
+
+- **Frontend**: React + TypeScript + Vite (modern web interface)
+- **Backend**: Node.js + Express + MongoDB (API & certificate generation)
+- **Email**: SMTP integration for certificate delivery
+- **Authentication**: JWT-based user authentication
+
+### What You Get
+
+✅ Complete web application (frontend + backend)
+✅ X.509 certificate generation (QWAC, PSD2, eIDAS, QSealC, QWAC_SAN)
+✅ User authentication & authorization
+✅ Promo code system
+✅ Email delivery with certificate attachments
+✅ Admin dashboard
+✅ RESTful API
+✅ Ready for QTSP integration
 
 ### Why CertTrust?
 
@@ -498,6 +520,33 @@ HTML template with meta tags, title, and Font Awesome.
 ---
 
 ## 🔐 Security & Compliance
+
+### 🏗️ HSM Infrastructure (FIPS 140-2 Level 3+)
+
+CertTrust includes a complete Hardware Security Module (HSM) infrastructure for secure key management:
+
+**Supported HSM Providers:**
+- ✅ **AWS CloudHSM** (FIPS 140-2 Level 3)
+- ✅ **Azure Dedicated HSM** (FIPS 140-2 Level 3)
+- ✅ **Google Cloud HSM** (FIPS 140-2 Level 3)
+- ✅ **Thales Luna** (FIPS 140-2 Level 3) via PKCS#11
+- ✅ **Local FIPS** (OpenSSL FIPS Provider)
+
+**Features:**
+- 🔑 Hardware-backed key generation and storage
+- 🔏 Secure certificate signing (keys never leave HSM)
+- 📊 Comprehensive audit logging (tamper-evident)
+- 🔒 FIPS-approved algorithms only (AES, RSA, ECDSA, SHA)
+- 🛡️ Zero-trust architecture
+- 💾 Encrypted key backup and recovery
+
+**Quick Start:**
+```bash
+cd hsm
+./setup.sh
+```
+
+📖 **Full HSM Documentation**: [hsm/README.md](hsm/README.md)
 
 ### Security Standards
 
