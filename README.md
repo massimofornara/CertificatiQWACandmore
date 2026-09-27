@@ -684,54 +684,130 @@ SOFTWARE.
 
 ---
 
-## 🚀 Deploy to All Platforms
+## 🚀 Deploy to All Platforms - Pubblica in 5 Minuti!
 
-CertTrust is ready for global deployment! We support **15+ platforms** out of the box.
+CertTrust è pronto per il deployment globale! Supportiamo **15+ piattaforme** out of the box.
 
-### Quick Deploy
+### ⚡ Metodo Ultra-Rapido (Consigliato)
 
 ```bash
-# Make the publish script executable
-chmod +x publish.sh
+# 1. Esegui il Setup Wizard Interattivo
+chmod +x setup-wizard.sh
+./setup-wizard.sh
 
-# Deploy to all platforms
+# 2. Pubblica con un solo comando
 ./publish.sh all
-
-# Or deploy to a specific platform
-./publish.sh vercel
-./publish.sh netlify
-./publish.sh docker
-./publish.sh npm
 ```
 
-### Supported Platforms
+**Il wizard ti guiderà automaticamente attraverso:**
+- ✅ Verifica dei prerequisiti
+- ✅ Installazione delle dipendenze
+- ✅ Configurazione GitHub
+- ✅ Scelta delle piattaforme
+- ✅ Configurazione automatica dei secret
+- ✅ Setup del deploy automatico
 
-| Platform | Type | Command |
-|----------|------|---------|
-| 🌐 **GitHub Pages** | Free Hosting | `./publish.sh github` |
-| ▲ **Vercel** | Free Hosting | `./publish.sh vercel` |
-| 🌐 **Netlify** | Free Hosting | `./publish.sh netlify` |
-| ☁️ **Cloudflare Pages** | Free Hosting | `./publish.sh cloudflare` |
-| 📦 **npm** | Package Registry | `./publish.sh npm` |
-| 🐳 **Docker Hub** | Container Registry | `./publish.sh docker` |
-| 🪣 **AWS S3 + CloudFront** | Cloud Storage | `./publish.sh aws` |
-| ☁️ **Azure Static Web Apps** | Cloud Hosting | `./publish.sh azure` |
-| 🌩️ **Google Cloud Run** | Serverless | `./publish.sh gcp` |
-| 🎈 **Heroku** | PaaS | `./publish.sh heroku` |
-| 🪁 **Fly.io** | Edge Computing | `./publish.sh flyio` |
-| 🚂 **Railway** | PaaS | `./publish.sh railway` |
-| 🎨 **Render** | Static Hosting | `./publish.sh render` |
+### 🔐 Configurazione Automatica dei Secret
 
-### Automated Deployment (GitHub Actions)
+```bash
+# Configura automaticamente tutti i secret su GitHub
+chmod +x configure-secrets.sh
+./configure-secrets.sh
+```
 
-The project includes a complete CI/CD workflow that automatically deploys to all platforms when you push to `main` or create a release.
+Questo script:
+- ✅ Installa GitHub CLI automaticamente
+- ✅ Ti guida nella creazione dei token
+- ✅ Configura i secret su GitHub
+- ✅ Abilita il deploy automatico
 
-**Setup:**
-1. Add your platform credentials to GitHub Secrets
-2. Push to `main` branch
-3. GitHub Actions handles the rest!
+### 📚 Guide Complete
 
-📖 **Full deployment guide**: [DEPLOYMENT.md](DEPLOYMENT.md)
+| Guida | Descrizione | Tempo |
+|-------|-------------|-------|
+| 📘 [QUICKSTART.md](QUICKSTART.md) | Guida rapidissima (5 minuti) | 5 min |
+| 🔐 [CONFIGURE.md](CONFIGURE.md) | Configurazione dettagliata dei secret | 10 min |
+| 🚀 [DEPLOYMENT.md](DEPLOYMENT.md) | Guida completa per ogni piattaforma | 15 min |
+
+### 🌍 Piattaforme Supportate
+
+| Piattaforma | Tipo | Comando | Difficoltà |
+|-------------|------|---------|------------|
+| 🌐 **GitHub Pages** | Hosting Gratuito | `./publish.sh github` | ⭐ |
+| ▲ **Vercel** | Hosting Gratuito | `./publish.sh vercel` | ⭐ |
+| 🌐 **Netlify** | Hosting Gratuito | `./publish.sh netlify` | ⭐ |
+| ☁️ **Cloudflare Pages** | Hosting Gratuito | `./publish.sh cloudflare` | ⭐ |
+| 🎨 **Render** | Hosting Gratuito | `./publish.sh render` | ⭐ |
+| 📦 **npm** | Package Registry | `./publish.sh npm` | ⭐⭐ |
+| 🐳 **Docker Hub** | Container Registry | `./publish.sh docker` | ⭐⭐ |
+| 🪣 **AWS S3 + CloudFront** | Cloud Storage | `./publish.sh aws` | ⭐⭐⭐ |
+| ☁️ **Azure Static Web Apps** | Cloud Hosting | `./publish.sh azure` | ⭐⭐⭐ |
+| 🌩️ **Google Cloud Run** | Serverless | `./publish.sh gcp` | ⭐⭐⭐ |
+| 🎈 **Heroku** | PaaS | `./publish.sh heroku` | ⭐⭐ |
+| 🪁 **Fly.io** | Edge Computing | `./publish.sh flyio` | ⭐⭐ |
+| 🚂 **Railway** | PaaS | `./publish.sh railway` | ⭐⭐ |
+
+### 🤖 Deploy Automatico con GitHub Actions
+
+Il progetto include un workflow GitHub Actions completo che deploya automaticamente su tutte le piattaforme quando fai push su `main` o crei una release.
+
+**Setup Automatico (3 minuti):**
+
+```bash
+# 1. Esegui lo script di configurazione
+chmod +x configure-secrets.sh
+./configure-secrets.sh
+
+# 2. Segui le istruzioni interattive
+
+# 3. Fai un push su GitHub
+git push origin main
+
+# 4. GitHub Actions deployerà automaticamente! 🚀
+```
+
+**Setup Manuale:**
+1. Vai su GitHub → Settings → Secrets and variables → Actions
+2. Aggiungi i token per le piattaforme che vuoi usare
+3. Push su `main`
+4. GitHub Actions gestisce tutto!
+
+### 📱 Deploy da Smartphone
+
+**Android (Termux):**
+```bash
+# Installa Termux, poi:
+pkg install nodejs git
+git clone https://github.com/tuo-username/certtrust.git
+cd certtrust
+chmod +x setup-wizard.sh
+./setup-wizard.sh
+./publish.sh all
+```
+
+**iOS:**
+- Usa SSH per connetterti a un PC remoto
+- Oppure usa GitHub Actions (nessun comando necessario!)
+
+### 🎯 Quale Piattaforma Scegliere?
+
+| Obiettivo | Piattaforma Consigliata |
+|-----------|------------------------|
+| **Deploy più rapido** | Vercel o Netlify |
+| **Open source** | GitHub Pages |
+| **Performance globale** | Cloudflare Pages |
+| **Container** | Docker Hub |
+| **Enterprise** | AWS o Azure |
+| **Zero config** | Render |
+
+### 💡 Suggerimento
+
+**Per la massima semplicità:**
+1. Esegui `./setup-wizard.sh`
+2. Segui le istruzioni
+3. Il tuo sito è online in 5 minuti! 🎉
+
+📖 **Guida completa**: [QUICKSTART.md](QUICKSTART.md)
 
 ---
 
