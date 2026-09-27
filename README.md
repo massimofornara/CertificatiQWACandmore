@@ -684,6 +684,57 @@ SOFTWARE.
 
 ---
 
+## 🚀 Deploy to All Platforms
+
+CertTrust is ready for global deployment! We support **15+ platforms** out of the box.
+
+### Quick Deploy
+
+```bash
+# Make the publish script executable
+chmod +x publish.sh
+
+# Deploy to all platforms
+./publish.sh all
+
+# Or deploy to a specific platform
+./publish.sh vercel
+./publish.sh netlify
+./publish.sh docker
+./publish.sh npm
+```
+
+### Supported Platforms
+
+| Platform | Type | Command |
+|----------|------|---------|
+| 🌐 **GitHub Pages** | Free Hosting | `./publish.sh github` |
+| ▲ **Vercel** | Free Hosting | `./publish.sh vercel` |
+| 🌐 **Netlify** | Free Hosting | `./publish.sh netlify` |
+| ☁️ **Cloudflare Pages** | Free Hosting | `./publish.sh cloudflare` |
+| 📦 **npm** | Package Registry | `./publish.sh npm` |
+| 🐳 **Docker Hub** | Container Registry | `./publish.sh docker` |
+| 🪣 **AWS S3 + CloudFront** | Cloud Storage | `./publish.sh aws` |
+| ☁️ **Azure Static Web Apps** | Cloud Hosting | `./publish.sh azure` |
+| 🌩️ **Google Cloud Run** | Serverless | `./publish.sh gcp` |
+| 🎈 **Heroku** | PaaS | `./publish.sh heroku` |
+| 🪁 **Fly.io** | Edge Computing | `./publish.sh flyio` |
+| 🚂 **Railway** | PaaS | `./publish.sh railway` |
+| 🎨 **Render** | Static Hosting | `./publish.sh render` |
+
+### Automated Deployment (GitHub Actions)
+
+The project includes a complete CI/CD workflow that automatically deploys to all platforms when you push to `main` or create a release.
+
+**Setup:**
+1. Add your platform credentials to GitHub Secrets
+2. Push to `main` branch
+3. GitHub Actions handles the rest!
+
+📖 **Full deployment guide**: [DEPLOYMENT.md](DEPLOYMENT.md)
+
+---
+
 ## 🎓 Learning Resources
 
 ### Digital Certificates
