@@ -11,7 +11,7 @@
 
 **प्रोडक्शन वातावरण में मुक्त योग्य डिजिटल प्रमाणपत्र प्राप्त करने के लिए पेशेवर मंच**
 
-[🇬🇧 English](README.md) • [🇮🇹 Italiano](README.it.md) • [🇩🇪 Deutsch](README.de.md) • [🇪🇸 Español](README.es.md) • [🇫🇷 Français](README.fr.md) • [🇵🇹 Português](README.pt.md) • [🇨🇳 中文](README.zh.md) • [🇯🇵 日本語](README.ja.md) • [🇸🇦 العربية](README.ar.md) • [🇷🇺 Русский](README.ru.md) • [🇵🇰 اردو](README.ur.md) • [🇮🇳 हिन्दी](#certtrust---डिजिटल-प्रमाणपत्र-qwac-psd2--eidas) • [🇮🇪 Gaeilge](README.ga.md)
+[🇬🇧 English](README.md) • [🇮🇹 Italiano](README.it.md) • [🇩🇪 Deutsch](README.de.md) • [🇪🇸 Español](README.es.md) • [🇫🇷 Français](README.fr.md) • [🇵🇹 Português](README.pt.md) • [🇨🇳 中文](README.zh.md) • [🇯🇵 日本語](README.ja.md) • [🇸🇦 العربية](README.ar.md) • [🇷🇺 Русский](README.ru.md) • [🇵🇰 اردو](README.ur.md) • [🇮🇳 हिन्दी](#certtrust---डिजिटल-प्रमाणपत्र-qwac-psd2--eidas) • [🇮🇪 Gaeilge](README.ga.md) • [🇰🇷 한국어](README.ko.md)
 
 [शुरू करें](#स्थापना) • [प्रलेखन](#प्रलेखन) • [डेमो](#डेमो) • [योगदान](#योगदान)
 

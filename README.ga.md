@@ -11,7 +11,7 @@
 
 **Ardán gairmiúil chun teastais dhigiteacha cáilithe a fháil saor in aisce i dtimpeallacht táirgthe**
 
-[🇬🇧 English](README.md) • [🇮🇹 Italiano](README.it.md) • [🇩🇪 Deutsch](README.de.md) • [🇪🇸 Español](README.es.md) • [🇫🇷 Français](README.fr.md) • [🇵🇹 Português](README.pt.md) • [🇨🇳 中文](README.zh.md) • [🇯🇵 日本語](README.ja.md) • [🇸🇦 العربية](README.ar.md) • [🇷🇺 Русский](README.ru.md) • [🇵🇰 اردو](README.ur.md) • [🇮🇳 हिन्दी](README.hi.md) • [🇮🇪 Gaeilge](#certtrust---teastais-dhigiteacha-qwac-psd2--eidas)
+[🇬🇧 English](README.md) • [🇮🇹 Italiano](README.it.md) • [🇩🇪 Deutsch](README.de.md) • [🇪🇸 Español](README.es.md) • [🇫🇷 Français](README.fr.md) • [🇵🇹 Português](README.pt.md) • [🇨🇳 中文](README.zh.md) • [🇯🇵 日本語](README.ja.md) • [🇸🇦 العربية](README.ar.md) • [🇷🇺 Русский](README.ru.md) • [🇵🇰 اردو](README.ur.md) • [🇮🇳 हिन्दी](README.hi.md) • [🇮🇪 Gaeilge](#certtrust---teastais-dhigiteacha-qwac-psd2--eidas) • [🇰🇷 한국어](README.ko.md)
 
 [Tosaigh Anois](#suiteáil) • [Doiciméadúchán](#doiciméadúchán) • [Taispeántas](#taispeántas) • [Rannpháirtíocht](#rannpháirtíocht)
 
