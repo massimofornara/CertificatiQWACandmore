@@ -40,9 +40,31 @@
 
 ## 🎯 Overview
 
-**CertTrust** is a modern, professional web platform that enables banks, payment institutions, TPPs (Third Party Providers), and financial organizations to obtain **free** qualified digital certificates in a **production environment**.
+**CertTrust** is a complete digital certificate management system with both frontend and backend components.
 
-Unlike other solutions that only provide test or sandbox certificates, CertTrust issues real certificates, ready for immediate use with any banking and financial institution in Europe, compliant with **PSD2** and **eIDAS** regulations.
+### ⚠️ Important Legal Notice
+
+This system generates **X.509 certificates for TEST/DEMO purposes**. The certificates are technically valid but NOT legally qualified under eIDAS regulation.
+
+For legally qualified certificates (required for PSD2 production), you must integrate with authorized QTSPs (InfoCert, Aruba, Namirial, etc.).
+
+### System Components
+
+- **Frontend**: React + TypeScript + Vite (modern web interface)
+- **Backend**: Node.js + Express + MongoDB (API & certificate generation)
+- **Email**: SMTP integration for certificate delivery
+- **Authentication**: JWT-based user authentication
+
+### What You Get
+
+✅ Complete web application (frontend + backend)
+✅ X.509 certificate generation (QWAC, PSD2, eIDAS, QSealC, QWAC_SAN)
+✅ User authentication & authorization
+✅ Promo code system
+✅ Email delivery with certificate attachments
+✅ Admin dashboard
+✅ RESTful API
+✅ Ready for QTSP integration
 
 ### Why CertTrust?
 
