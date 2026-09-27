@@ -90,7 +90,7 @@ A differenza di altre soluzioni che forniscono solo certificati di test o sandbo
 
 ---
 
-## 📜 Certificati Disponibili
+## 📜 Certificati Disponibili (7 in Totale)
 
 ### 1. QWAC - Qualified Website Authentication Certificate
 **Autenticazione sicura del sito web**
@@ -207,6 +207,29 @@ Sigillo elettronico qualificato per TPP con estensioni PSD2. Utilizzato per firm
 Firma richieste API bancarie
 Autenticazione transazioni
 Non ripudio operazioni
+```
+
+---
+
+### 7. QWAC SAN - Qualified Website Authentication Certificate con Subject Alternative Name
+**Autenticazione sicura multi-dominio del sito web**
+
+Il QWAC SAN è un certificato digitale qualificato che autentica l'identità di un sito web e garantisce comunicazioni sicure TLS/SSL, con supporto per più domini tramite Subject Alternative Name (SAN). Questo permette di proteggere più domini e sottodomini con un singolo certificato, ideale per istituzioni bancarie con infrastrutture complesse e multiple presence online.
+
+**Caratteristiche:**
+- Autenticazione multi-dominio tramite SAN
+- Crittografia TLS/SSL per più domini
+- Supporto wildcard (*.example.com)
+- Obbligatorio per istituti finanziari (PSD2)
+- Valore legale in tutta l'UE
+- Ideale per infrastrutture bancarie complesse
+
+**Utilizzo:**
+```
+Connessioni mTLS multi-dominio alle API bancarie
+Autenticazione server-side su più domini
+Comunicazioni sicure PSD2 per servizi multipli
+Certificato wildcard per protezione sottodomini
 ```
 
 ---

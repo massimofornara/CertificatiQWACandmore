@@ -122,6 +122,11 @@ Certificado QWAC con extensiones PSD2 en los campos de privilegios. Requerido pa
 
 Sello electrónico cualificado para TPP con extensiones PSD2. Utilizado para firmar las solicitudes a las APIs bancarias y garantizar autenticidad y no repudio.
 
+### 7. QWAC SAN - Qualified Website Authentication Certificate con Subject Alternative Name
+**Autenticación segura multi-dominio del sitio web**
+
+El QWAC SAN es un certificado digital cualificado que autentica la identidad de un sitio web y garantiza comunicaciones seguras TLS/SSL, con soporte para múltiples dominios a través de Subject Alternative Name (SAN). Permite proteger múltiples dominios y subdominios con un único certificado, ideal para instituciones bancarias con infraestructuras complejas.
+
 ---
 
 ## 👥 Para Quién es

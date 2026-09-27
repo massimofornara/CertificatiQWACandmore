@@ -90,7 +90,7 @@ Unlike other solutions that only provide test or sandbox certificates, CertTrust
 
 ---
 
-## 📜 Available Certificates
+## 📜 Available Certificates (7 Total)
 
 ### 1. QWAC - Qualified Website Authentication Certificate
 **Secure website authentication**
@@ -207,6 +207,29 @@ Qualified electronic seal for TPPs with PSD2 extensions. Used to sign requests t
 Banking API request signing
 Transaction authentication
 Operation non-repudiation
+```
+
+---
+
+### 7. QWAC SAN - Qualified Website Authentication Certificate with Subject Alternative Name
+**Multi-domain secure website authentication**
+
+The QWAC SAN is a qualified digital certificate that authenticates a website's identity and guarantees secure TLS/SSL communications, with support for multiple domains through Subject Alternative Name (SAN). This allows you to protect multiple domains and subdomains with a single certificate, ideal for banking institutions with complex infrastructures and multiple online presences.
+
+**Features:**
+- Multi-domain authentication via SAN
+- TLS/SSL encryption for multiple domains
+- Wildcard support (*.example.com)
+- Mandatory for financial institutions (PSD2)
+- Legal value throughout the EU
+- Ideal for complex banking infrastructures
+
+**Usage:**
+```
+Multi-domain mTLS connections to banking APIs
+Server-side authentication across multiple domains
+Secure PSD2 communications for multiple services
+Wildcard certificate for subdomain protection
 ```
 
 ---

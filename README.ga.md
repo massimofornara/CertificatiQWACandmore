@@ -122,6 +122,11 @@ Teastas QWAC le leathnú PSD2 i réimsí pribhléide.
 
 Séala leictreonach cáilithe do TPPanna le leathnú PSD2.
 
+### 7. QWAC SAN - Teastas Fíordheimhnithe Suíomh Gréasáin Cáilithe le Subject Alternative Name
+**Fíordheimhniú slán il-fhearann suíomh gréasáin**
+
+Is teastas digiteach cáilithe é QWAC SAN a fhíordheimhníonn aitheantas suíomh gréasáin agus a ráthaíonn cumarsáidí slána TLS/SSL, le tacaíocht d'il-fhearann trí Subject Alternative Name (SAN). Ligeann sé duit il-fhearann agus fho-fhearann a chosaint le teastas amháin.
+
 ---
 
 ## 👥 Cé dó é
