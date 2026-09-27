@@ -32,8 +32,8 @@ function App() {
               <a href="#come-ottenere" className="hover:text-cyan-400 transition">Come Ottenere</a>
               <a href="#faq" className="hover:text-cyan-400 transition">FAQ</a>
             </div>
-            <a href="#codice" className="bg-gradient-to-r from-blue-500 to-cyan-500 px-4 py-2 rounded-lg font-medium text-sm hover:from-blue-600 hover:to-cyan-600 transition">
-              Ottieni Gratis
+            <a href="#codice" className="bg-gradient-to-r from-green-500 to-emerald-500 px-4 py-2 rounded-lg font-medium text-sm hover:from-green-600 hover:to-emerald-600 transition">
+              🏭 Produzione Gratis
             </a>
           </div>
         </div>
@@ -52,6 +52,15 @@ function App() {
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
             Offerta limitata — Certificati gratuiti con codice
           </div>
+
+          {/* PRODUCTION BADGE */}
+          <div className="inline-flex items-center gap-3 bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/40 rounded-full px-6 py-3 mb-6 text-sm font-semibold">
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+            </span>
+            <span className="text-green-300">🏭 AMBIENTE DI PRODUZIONE — NON TEST/SANDBOX</span>
+          </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Certificati Digitali{' '}
@@ -59,18 +68,22 @@ function App() {
               QWAC, PSD2 & eIDAS
             </span>
             <br />
-            <span className="text-3xl md:text-4xl lg:text-5xl text-white/80">100% Gratuiti</span>
+            <span className="text-3xl md:text-4xl lg:text-5xl text-white/80">100% Gratuiti in Produzione</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-10">
-            Ottieni tutti i certificati digitali qualificati necessari per la conformità PSD2, 
+          <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-4">
+            Ottieni certificati digitali qualificati <span className="text-green-400 font-semibold">in ambiente di produzione</span> per la conformità PSD2, 
             Open Banking e il regolamento eIDAS. Inserisci il tuo codice e scarica immediatamente 
-            i certificati QWAC, QSeal, eIDAS e molto altro.
+            i certificati QWAC, QSeal, eIDAS — <span className="text-cyan-400 font-semibold">validi per ogni istituzione bancaria e finanziaria in Europa</span>.
+          </p>
+          <p className="text-base text-white/50 max-w-2xl mx-auto mb-10">
+            Nessun ambiente di test. Nessun sandbox. Certificati pronti per l'uso immediato con tutte le banche, 
+            istituti di pagamento, ASPSP e TPP dell'Unione Europea.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="#codice" className="bg-gradient-to-r from-blue-500 to-cyan-500 px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-cyan-600 transition shadow-lg shadow-blue-500/25">
-              🎫 Inserisci il Codice
+            <a href="#codice" className="bg-gradient-to-r from-green-500 to-emerald-500 px-8 py-4 rounded-xl font-semibold text-lg hover:from-green-600 hover:to-emerald-600 transition shadow-lg shadow-green-500/25">
+              🏭 Ottieni Certificati Produzione
             </a>
             <a href="#certificati" className="border border-white/20 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/10 transition">
               Scopri di più →
@@ -78,7 +91,7 @@ function App() {
           </div>
 
           {/* Trust badges */}
-          <div className="mt-16 flex flex-wrap justify-center gap-8 text-white/50 text-sm">
+          <div className="mt-16 flex flex-wrap justify-center gap-6 text-white/50 text-sm">
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -101,8 +114,126 @@ function App() {
               <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
+              🏭 PRODUZIONE
+            </div>
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
               EBA Standards
             </div>
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              🏦 Valido per OGNI Istituzione
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Produzione & Validità Universale Banner */}
+      <section className="py-12 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="bg-gradient-to-r from-green-500/10 via-emerald-500/10 to-teal-500/10 border border-green-400/30 rounded-2xl p-8 md:p-12">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-400/30 rounded-full px-3 py-1 mb-4 text-xs font-bold text-green-300 uppercase tracking-wider">
+                  <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                  Certificati di Produzione
+                </div>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  Non sono certificati di test.<br />
+                  <span className="text-green-400">Sono in PRODUZIONE.</span>
+                </h2>
+                <p className="text-white/70 leading-relaxed">
+                  A differenza di altri servizi che forniscono solo certificati sandbox per test, 
+                  i nostri certificati sono emessi in <strong className="text-white">ambiente di produzione reale</strong> da 
+                  QTSP (Qualified Trust Service Provider) autorizzati. Questo significa che puoi 
+                  usarli immediatamente per connetterti alle API di qualsiasi banca o istituto finanziario.
+                </p>
+              </div>
+              <div className="space-y-3">
+                <div className="flex items-center gap-3 bg-white/5 rounded-xl p-4 border border-white/10">
+                  <div className="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center shrink-0">
+                    <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <div className="font-semibold text-sm">Ambiente di Produzione</div>
+                    <div className="text-white/50 text-xs">Nessun sandbox, nessun test — produzione reale</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 bg-white/5 rounded-xl p-4 border border-white/10">
+                  <div className="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center shrink-0">
+                    <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <div className="font-semibold text-sm">Valido per OGNI Istituzione</div>
+                    <div className="text-white/50 text-xs">Banche, istituti di pagamento, ASPSP, TPP</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 bg-white/5 rounded-xl p-4 border border-white/10">
+                  <div className="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center shrink-0">
+                    <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <div className="font-semibold text-sm">Riconosciuti in tutta l'UE</div>
+                    <div className="text-white/50 text-xs">27 stati membri — valore legale completo</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 bg-white/5 rounded-xl p-4 border border-white/10">
+                  <div className="w-10 h-10 bg-orange-500/20 rounded-lg flex items-center justify-center shrink-0">
+                    <svg className="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <div className="font-semibold text-sm">Attivazione Immediata</div>
+                    <div className="text-white/50 text-xs">Usa i certificati in produzione subito dopo il download</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Istituzioni che accettano i certificati */}
+      <section className="py-16 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">Validi per Ogni Istituzione in Europa</h2>
+            <p className="text-white/60 max-w-2xl mx-auto">
+              I certificati sono accettati da tutte le istituzioni finanziarie che operano nell'ambito PSD2 e eIDAS
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {[
+              { icon: '🏦', name: 'Banche Commerciali', desc: 'Tutti gli istituti di credito UE' },
+              { icon: '💳', name: 'Istituti di Pagamento', desc: 'IP autorizzati' },
+              { icon: '🏛️', name: 'ASPSP', desc: 'Account Servicing PSP' },
+              { icon: '🔄', name: 'AISP', desc: 'Account Information SP' },
+              { icon: '💸', name: 'PISP', desc: 'Payment Initiation SP' },
+              { icon: '🌐', name: 'PI / EMI', desc: 'Payment & E-Money Inst.' },
+              { icon: '📊', name: 'Fintech', desc: 'Startup e scale-up' },
+              { icon: '🏢', name: 'Corporate', desc: 'Aziende e PA' },
+              { icon: '🔗', name: 'Aggregatori', desc: 'Servizi di aggregazione' },
+              { icon: '🛡️', name: 'Assicurazioni', desc: 'Compagnie assicurative' },
+              { icon: '📱', name: 'Neobanche', desc: 'Banche digitali' },
+              { icon: '🇪🇺', name: 'PA Europea', desc: 'Pubblica Amministrazione UE' },
+            ].map((item, i) => (
+              <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center hover:bg-white/10 transition group">
+                <div className="text-2xl mb-2">{item.icon}</div>
+                <div className="font-semibold text-sm mb-1">{item.name}</div>
+                <div className="text-white/40 text-xs">{item.desc}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -111,16 +242,21 @@ function App() {
       <section id="certificati" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-400/30 rounded-full px-4 py-2 mb-4 text-sm font-semibold text-green-300">
+              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+              Tutti in Ambiente di Produzione
+            </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Tutti i Certificati Disponibili</h2>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
-              Una suite completa di certificati digitali qualificati per banche, istituti di pagamento, 
-              TPP e tutti gli operatori del settore finanziario.
+              Una suite completa di certificati digitali qualificati <span className="text-green-400 font-medium">in produzione</span> per banche, istituti di pagamento, 
+              TPP e tutti gli operatori del settore finanziario. <span className="text-cyan-400 font-medium">Validi per ogni istituzione in Europa.</span>
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* QWAC */}
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group relative overflow-hidden">
+              <div className="absolute top-3 right-3 bg-green-500/20 border border-green-400/30 text-green-300 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Produzione</div>
               <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
@@ -140,7 +276,8 @@ function App() {
             </div>
 
             {/* PSD2 */}
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group relative overflow-hidden">
+              <div className="absolute top-3 right-3 bg-green-500/20 border border-green-400/30 text-green-300 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Produzione</div>
               <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
@@ -160,7 +297,8 @@ function App() {
             </div>
 
             {/* eIDAS */}
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group relative overflow-hidden">
+              <div className="absolute top-3 right-3 bg-green-500/20 border border-green-400/30 text-green-300 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Produzione</div>
               <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -179,7 +317,8 @@ function App() {
             </div>
 
             {/* QSealC */}
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group relative overflow-hidden">
+              <div className="absolute top-3 right-3 bg-green-500/20 border border-green-400/30 text-green-300 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Produzione</div>
               <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
@@ -198,7 +337,8 @@ function App() {
             </div>
 
             {/* QWAC for TPP */}
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group relative overflow-hidden">
+              <div className="absolute top-3 right-3 bg-green-500/20 border border-green-400/30 text-green-300 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Produzione</div>
               <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-teal-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -218,7 +358,8 @@ function App() {
             </div>
 
             {/* QSealC for TPP */}
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition group relative overflow-hidden">
+              <div className="absolute top-3 right-3 bg-green-500/20 border border-green-400/30 text-green-300 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Produzione</div>
               <div className="w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -246,30 +387,31 @@ function App() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Perché Scegliere i Nostri Certificati</h2>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
-              Certificati qualificati emessi da QTSP autorizzati, riconosciuti in tutta l'Unione Europea
+              Certificati qualificati <span className="text-green-400 font-medium">in produzione</span> emessi da QTSP autorizzati, 
+              <span className="text-cyan-400 font-medium"> validi per ogni istituzione</span> in tutta l'Unione Europea
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">⚡</div>
-              <h3 className="font-bold text-lg mb-2">Emissione Immediata</h3>
-              <p className="text-white/60 text-sm">Ricevi i tuoi certificati in pochi minuti dopo la validazione del codice</p>
+            <div className="text-center p-6 bg-white/5 border border-white/10 rounded-2xl">
+              <div className="text-4xl mb-4">🏭</div>
+              <h3 className="font-bold text-lg mb-2 text-green-400">Ambiente PRODUZIONE</h3>
+              <p className="text-white/60 text-sm">Certificati reali di produzione, non sandbox o test. Pronti per l'uso immediato con qualsiasi istituzione</p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">🔒</div>
-              <h3 className="font-bold text-lg mb-2">Sicurezza Massima</h3>
-              <p className="text-white/60 text-sm">Chiavi crittografiche a 2048/4096 bit con algoritmi SHA-256 e superiori</p>
+            <div className="text-center p-6 bg-white/5 border border-white/10 rounded-2xl">
+              <div className="text-4xl mb-4">🏦</div>
+              <h3 className="font-bold text-lg mb-2 text-cyan-400">Validi per OGNI Istituzione</h3>
+              <p className="text-white/60 text-sm">Accettati da banche, istituti di pagamento, ASPSP, AISP, PISP, fintech e PA in tutta Europa</p>
             </div>
-            <div className="text-center p-6">
+            <div className="text-center p-6 bg-white/5 border border-white/10 rounded-2xl">
               <div className="text-4xl mb-4">🇪🇺</div>
-              <h3 className="font-bold text-lg mb-2">Riconosciuti in UE</h3>
-              <p className="text-white/60 text-sm">Validi in tutti gli stati membri dell'Unione Europea secondo eIDAS</p>
+              <h3 className="font-bold text-lg mb-2 text-purple-400">Riconosciuti in UE</h3>
+              <p className="text-white/60 text-sm">Validi in tutti i 27 stati membri dell'Unione Europea secondo il regolamento eIDAS</p>
             </div>
-            <div className="text-center p-6">
+            <div className="text-center p-6 bg-white/5 border border-white/10 rounded-2xl">
               <div className="text-4xl mb-4">💰</div>
-              <h3 className="font-bold text-lg mb-2">100% Gratuiti</h3>
-              <p className="text-white/60 text-sm">Nessun costo nascosto. Inserisci il codice e ottieni tutti i certificati</p>
+              <h3 className="font-bold text-lg mb-2 text-orange-400">100% Gratuiti</h3>
+              <p className="text-white/60 text-sm">Nessun costo nascosto. Inserisci il codice e ottieni tutti i certificati di produzione gratuitamente</p>
             </div>
           </div>
         </div>
@@ -279,9 +421,9 @@ function App() {
       <section id="come-ottenere" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Come Ottenere i Certificati</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Come Ottenere i Certificati di Produzione</h2>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
-              Tre semplici passaggi per ottenere tutti i certificati digitali necessari
+              Tre semplici passaggi per ottenere tutti i certificati digitali qualificati <span className="text-green-400 font-medium">in produzione</span> — validi per ogni istituzione
             </p>
           </div>
 
@@ -311,9 +453,9 @@ function App() {
             <div className="relative">
               <div className="bg-white/5 border border-white/10 rounded-2xl p-8 text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-violet-500 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">3</div>
-                <h3 className="text-xl font-bold mb-3">Scarica Certificati</h3>
+                <h3 className="text-xl font-bold mb-3">Scarica Certificati Produzione</h3>
                 <p className="text-white/60">
-                  Scarica immediatamente tutti i certificati QWAC, PSD2, eIDAS e QSeal
+                  Scarica immediatamente tutti i certificati QWAC, PSD2, eIDAS e QSeal <span className="text-green-400 font-medium">in produzione</span> — validi per ogni istituzione
                 </p>
               </div>
             </div>
@@ -331,7 +473,7 @@ function App() {
               </div>
               <h2 className="text-2xl md:text-3xl font-bold mb-2">Inserisci il Tuo Codice</h2>
               <p className="text-white/60">
-                Inserisci il codice promozionale e la tua email per ricevere tutti i certificati gratuitamente
+                Inserisci il codice promozionale e la tua email per ricevere tutti i certificati <span className="text-green-400 font-medium">di produzione</span> gratuitamente — validi per ogni istituzione
               </p>
             </div>
 
@@ -361,9 +503,9 @@ function App() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-blue-500 to-cyan-500 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-cyan-600 transition shadow-lg shadow-blue-500/25 mt-4"
+                  className="w-full bg-gradient-to-r from-green-500 to-emerald-500 py-4 rounded-xl font-semibold text-lg hover:from-green-600 hover:to-emerald-600 transition shadow-lg shadow-green-500/25 mt-4"
                 >
-                  🚀 Ottieni i Certificati Gratuitamente
+                  🏭 Ottieni Certificati di Produzione Gratis
                 </button>
                 <p className="text-center text-white/40 text-xs mt-4">
                   I tuoi dati sono protetti e non saranno condivisi con terze parti
@@ -380,6 +522,12 @@ function App() {
                 <p className="text-white/70 mb-4">
                   Il tuo codice <span className="text-cyan-400 font-mono">{code}</span> è stato accettato.
                 </p>
+                <div className="bg-green-500/10 border border-green-400/30 rounded-xl p-4 mb-4">
+                  <p className="text-sm text-green-300 font-semibold mb-1">🏭 Certificati in AMBIENTE DI PRODUZIONE</p>
+                  <p className="text-sm text-white/60">
+                    I certificati sono emessi in produzione da QTSP autorizzati e sono <strong className="text-white">validi per ogni istituzione</strong> bancaria, finanziaria e di pagamento in Europa.
+                  </p>
+                </div>
                 <div className="bg-white/5 border border-white/10 rounded-xl p-4 mb-6">
                   <p className="text-sm text-white/60">
                     I certificati saranno inviati all'indirizzo <span className="text-white font-medium">{email}</span> entro pochi minuti.
@@ -388,20 +536,25 @@ function App() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
                   <div className="bg-blue-500/20 border border-blue-500/30 rounded-lg p-3">
                     <div className="text-blue-300 font-bold">QWAC</div>
-                    <div className="text-white/50 text-xs">✓ Incluso</div>
+                    <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
                   </div>
                   <div className="bg-green-500/20 border border-green-500/30 rounded-lg p-3">
                     <div className="text-green-300 font-bold">PSD2</div>
-                    <div className="text-white/50 text-xs">✓ Incluso</div>
+                    <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
                   </div>
                   <div className="bg-purple-500/20 border border-purple-500/30 rounded-lg p-3">
                     <div className="text-purple-300 font-bold">eIDAS</div>
-                    <div className="text-white/50 text-xs">✓ Incluso</div>
+                    <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
                   </div>
                   <div className="bg-orange-500/20 border border-orange-500/30 rounded-lg p-3">
                     <div className="text-orange-300 font-bold">QSealC</div>
-                    <div className="text-white/50 text-xs">✓ Incluso</div>
+                    <div className="text-green-400 text-xs font-semibold">✓ Produzione</div>
                   </div>
+                </div>
+                <div className="mt-6 bg-white/5 border border-white/10 rounded-xl p-4">
+                  <p className="text-xs text-white/50 text-center">
+                    🏦 Validi per: Banche • Istituti di Pagamento • ASPSP • AISP • PISP • Fintech • Neobanche • PA Europea • Assicurazioni
+                  </p>
                 </div>
               </div>
             )}
@@ -414,7 +567,7 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Domande Frequenti</h2>
-            <p className="text-white/60 text-lg">Tutto quello che devi sapere sui certificati digitali</p>
+            <p className="text-white/60 text-lg">Tutto quello che devi sapere sui certificati digitali di produzione</p>
           </div>
 
           <div className="space-y-4">
@@ -431,8 +584,16 @@ function App() {
               answer="eIDAS (electronic IDentification, Authentication and trust Services) è il regolamento europeo n. 910/2014 che stabilisce il quadro normativo per l'identificazione elettronica e i servizi fiduciari nell'UE. I certificati qualificati eIDAS hanno lo stesso valore legale dei certificati cartacei in tutti gli stati membri."
             />
             <FaqItem 
+              question="I certificati gratuiti sono in produzione o in test?"
+              answer="I certificati sono in AMBIENTE DI PRODUZIONE REALE. Non sono certificati sandbox o di test. Sono emessi da QTSP (Qualified Trust Service Provider) autorizzati e hanno lo stesso valore e le stesse funzionalità dei certificati a pagamento. Puoi usarli immediatamente per connetterti alle API di produzione di qualsiasi banca o istituto finanziario."
+            />
+            <FaqItem 
+              question="Per quali istituzioni sono validi i certificati?"
+              answer="I certificati sono validi per OGNI istituzione finanziaria che opera nell'ambito PSD2 e eIDAS nell'Unione Europea. Questo include: banche commerciali, istituti di pagamento (IP), istituti di moneta elettronica (IME), ASPSP (Account Servicing Payment Service Providers), AISP (Account Information Service Providers), PISP (Payment Initiation Service Providers), fintech, neobanche, assicurazioni, e pubblica amministrazione. Sono accettati da tutte le banche e istituzioni nei 27 stati membri UE."
+            />
+            <FaqItem 
               question="Come posso ottenere i certificati gratuitamente?"
-              answer="È semplice: inserisci il tuo codice promozionale nella sezione dedicata, completa la verifica dell'identità aziendale e riceverai immediatamente tutti i certificati QWAC, PSD2, eIDAS e QSeal direttamente nella tua email. I certificati sono emessi da QTSP (Qualified Trust Service Provider) autorizzati."
+              answer="È semplice: inserisci il tuo codice promozionale nella sezione dedicata, completa la verifica dell'identità aziendale e riceverai immediatamente tutti i certificati QWAC, PSD2, eIDAS e QSeal direttamente nella tua email. I certificati sono emessi in produzione da QTSP (Qualified Trust Service Provider) autorizzati e sono validi per ogni istituzione."
             />
             <FaqItem 
               question="I certificati sono validi in tutta Europa?"
@@ -460,7 +621,7 @@ function App() {
                 <span className="font-bold text-lg">CertTrust</span>
               </div>
               <p className="text-white/50 text-sm">
-                Certificati digitali qualificati per il settore finanziario europeo. Conformi a PSD2, eIDAS e regolamenti EBA.
+                Certificati digitali qualificati <strong className="text-green-400">in produzione</strong> per il settore finanziario europeo. Conformi a PSD2, eIDAS e regolamenti EBA. Validi per ogni istituzione.
               </p>
             </div>
             <div>
